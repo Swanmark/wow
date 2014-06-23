@@ -7,6 +7,7 @@ end
 
 function love.update()
 	movePlayer()
+	mapCollide()
 end
 function love.draw()
 	drawPlayer()
